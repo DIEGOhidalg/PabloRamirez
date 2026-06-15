@@ -28,6 +28,7 @@ html {
 
 body {
   font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.96rem;
   color: var(--ink);
   background: #fff;
   line-height: 1.65;
@@ -53,12 +54,35 @@ a {
   text-decoration: none;
 }
 
+p,
+.accordion-body,
+.check-list li {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.text-center p,
+.navbar p,
+.footer .small,
+.privacy-note,
+.trust-strip span,
+.hero-stats span,
+.mini-stat span,
+.testimonial-card strong,
+.testimonial-card span {
+  text-align: inherit;
+}
+
 img {
   max-width: 100%;
 }
 
 .fw-black {
   font-weight: 800;
+}
+
+.display-3 {
+  font-size: clamp(2.35rem, 5vw, 4rem);
 }
 
 .text-white-70 {
@@ -76,7 +100,7 @@ img {
 
 .section-title {
   font-weight: 800;
-  font-size: clamp(2rem, 4vw, 3.35rem);
+  font-size: clamp(1.8rem, 3.4vw, 2.85rem);
   line-height: 1.08;
   margin-bottom: 1.1rem;
   color: var(--navy);
@@ -84,7 +108,7 @@ img {
 
 .section-copy {
   color: var(--muted);
-  font-size: 1.05rem;
+  font-size: 1rem;
 }
 
 .eyebrow {
@@ -208,7 +232,7 @@ img {
 
 .hero-lead {
   color: rgba(255, 255, 255, 0.78);
-  font-size: clamp(1.08rem, 2vw, 1.32rem);
+  font-size: clamp(1rem, 1.55vw, 1.16rem);
   max-width: 48rem;
 }
 
@@ -234,7 +258,7 @@ img {
   display: block;
   color: #fff;
   font-family: "Sora", sans-serif;
-  font-size: 2.5rem;
+  font-size: 2.18rem;
   line-height: 1;
 }
 
@@ -293,6 +317,41 @@ img {
   font-size: 0.88rem;
 }
 
+.hero-case-photo {
+  display: grid;
+  grid-template-columns: 92px 1fr;
+  gap: 1rem;
+  align-items: center;
+  padding: 0.85rem;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 1.25rem;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(18px);
+  box-shadow: 0 18px 52px rgba(0, 0, 0, 0.22);
+}
+
+.hero-case-photo img {
+  width: 92px;
+  height: 92px;
+  border-radius: 1rem;
+  object-fit: cover;
+}
+
+.hero-case-photo strong,
+.hero-case-photo span {
+  display: block;
+}
+
+.hero-case-photo strong {
+  color: #fff;
+  font-weight: 800;
+}
+
+.hero-case-photo span {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.92rem;
+}
+
 /* Trust */
 .trust-strip {
   color: #fff;
@@ -315,6 +374,36 @@ img {
   color: rgba(255, 255, 255, 0.62);
   font-size: 0.9rem;
   font-weight: 600;
+}
+
+.visual-proof,
+.testimonial-media {
+  padding: 1rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: #fff;
+  box-shadow: 0 18px 60px rgba(15, 41, 66, 0.08);
+}
+
+.visual-proof img,
+.testimonial-media img {
+  width: 100%;
+  min-height: 260px;
+  border-radius: 1.1rem;
+  object-fit: cover;
+}
+
+.visual-proof h3,
+.testimonial-media h3 {
+  color: var(--navy);
+  font-size: clamp(1.35rem, 2.2vw, 2rem);
+  font-weight: 800;
+  line-height: 1.18;
+}
+
+.visual-proof p:not(.eyebrow),
+.testimonial-media p {
+  color: var(--muted);
 }
 
 /* Cards */
@@ -359,11 +448,28 @@ img {
   font-size: 1.5rem;
 }
 
+.service-icon {
+  width: 4.4rem;
+  height: 4.4rem;
+  margin-bottom: 1.2rem;
+  padding: 0.68rem;
+  border-radius: 1.1rem;
+  background: linear-gradient(135deg, rgba(199, 154, 58, 0.22), rgba(212, 160, 23, 0.08));
+  object-fit: contain;
+  filter: drop-shadow(0 12px 18px rgba(15, 41, 66, 0.12));
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.service-card:hover .service-icon {
+  transform: translateY(-4px) scale(1.04);
+  filter: drop-shadow(0 18px 24px rgba(15, 41, 66, 0.18));
+}
+
 .feature-card h3,
 .service-card h3,
 .process-card h3 {
   color: var(--navy);
-  font-size: 1.22rem;
+  font-size: 1.12rem;
   font-weight: 800;
 }
 
@@ -680,7 +786,7 @@ img {
   }
 
   .display-3 {
-    font-size: 2.55rem;
+    font-size: 2.22rem;
   }
 
   .brand-logo {
