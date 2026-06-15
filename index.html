@@ -1,393 +1,402 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es-CL">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Abogado Laboral para Trabajadores en Chile | Defensa Trabajador</title>
-  <meta name="description" content="Defensa laboral para trabajadores en Chile. Asesoría en despidos, autodespido, nulidad del despido, cobro de prestaciones, tutelas laborales y accidentes del trabajo.">
-  <meta name="keywords" content="abogado laboral Chile, defensa trabajador, despido injustificado, autodespido, nulidad del despido, tutela laboral, cobro de prestaciones, abogado laboral Viña del Mar">
-  <link rel="preload" href="styles.css" as="style">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Defensa Laboral en Chile | Pablo Ramírez Venegas</title>
+  <meta name="description" content="Defensa laboral para trabajadores en Chile. Evaluación de despidos, finiquitos, cotizaciones impagas, tutelas laborales y accidentes del trabajo.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-  <svg class="svg-sprite" aria-hidden="true" focusable="false">
-    <symbol id="icon-whatsapp" viewBox="0 0 24 24">
-      <path d="M12.04 2.01A9.94 9.94 0 0 0 3.55 17.1L2 22l5.04-1.48a9.94 9.94 0 1 0 5-18.51Zm0 1.93a8.01 8.01 0 0 1 6.82 12.2 8.02 8.02 0 0 1-10.9 2.47l-.36-.21-2.78.82.85-2.68-.24-.38A8.01 8.01 0 0 1 12.04 3.94Zm-3.3 3.72c-.18 0-.47.07-.72.34-.25.27-.95.93-.95 2.27s.98 2.64 1.11 2.82c.14.18 1.9 3.05 4.72 4.15 2.34.92 2.82.74 3.33.69.51-.05 1.64-.67 1.87-1.32.23-.65.23-1.2.16-1.32-.07-.11-.25-.18-.53-.32-.28-.14-1.64-.81-1.89-.9-.25-.09-.44-.14-.62.14-.18.28-.71.9-.87 1.08-.16.18-.32.2-.6.07-.28-.14-1.18-.44-2.25-1.39-.83-.74-1.39-1.66-1.55-1.94-.16-.28-.02-.43.12-.57.13-.13.28-.32.41-.48.14-.16.18-.28.28-.46.09-.18.05-.34-.02-.48-.07-.14-.62-1.5-.85-2.05-.22-.53-.45-.46-.62-.47h-.53Z"/>
-    </symbol>
-  </svg>
-  <header class="site-header" id="top">
-    <nav class="nav" aria-label="Navegación principal">
-      <a class="brand" href="#top" aria-label="Defensa Trabajador inicio">
-        <img src="LogoDefensaLaboral.png" alt="Defensa Trabajador">
+<body data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="96" tabindex="0">
+  <!-- NAVBAR -->
+  <nav id="mainNav" class="navbar navbar-expand-lg fixed-top navbar-dark" aria-label="Navegacion principal">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="#inicio" aria-label="Defensa Laboral inicio">
+        <img src="LogoDefensaLaboral.png" alt="Defensa Laboral" class="brand-logo">
       </a>
-      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span class="sr-only">Abrir menú</span>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Abrir navegacion">
+        <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="nav-menu" id="nav-menu">
-        <a href="#beneficios">Beneficios</a>
-        <a href="#video">Video</a>
-        <a href="#servicios">Servicios</a>
-        <a href="#proceso">Proceso</a>
-        <a href="#plazos">Plazos</a>
-        <a href="#formulario">Contacto</a>
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+          <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+          <li class="nav-item"><a class="nav-link" href="#abogado">Abogado</a></li>
+          <li class="nav-item"><a class="nav-link" href="#proceso">Proceso</a></li>
+          <li class="nav-item"><a class="nav-link" href="#plazos">Plazos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+          <li class="nav-item ms-lg-3">
+            <a class="btn btn-whatsapp btn-sm px-3" href="https://wa.me/56969094607?text=Hola%2C%20quiero%20evaluar%20mi%20caso%20laboral." target="_blank" rel="noopener">
+              <i class="bi bi-whatsapp" aria-hidden="true"></i> WhatsApp
+            </a>
+          </li>
+        </ul>
       </div>
-      <a class="nav-cta" href="https://wa.me/56969094607?text=Hola%2C%20quiero%20solicitar%20orientaci%C3%B3n%20laboral.%20Necesito%20evaluar%20mi%20caso%20y%20saber%20qu%C3%A9%20acciones%20puedo%20tomar." target="_blank" rel="noopener">WhatsApp</a>
-    </nav>
-  </header>
+    </div>
+  </nav>
 
   <main>
-    <section class="hero">
-      <div class="hero-bg">
-        <video src="Video1.mp4" autoplay muted loop playsinline poster="imagenLaboral1.jpg"></video>
-      </div>
-      <div class="hero-overlay"></div>
-      <div class="container hero-grid">
-        <div class="hero-copy">
-          <p class="eyebrow">Defensa laboral para trabajadores en Chile</p>
-          <h1>Abogado laboral para proteger tus derechos antes de que venza el plazo</h1>
-          <p class="hero-lead">Si fuiste despedido, te deben prestaciones, sufriste una vulneración de derechos o necesitas revisar tu finiquito, recibe asesoría especializada con una estrategia clara desde el primer contacto.</p>
-          <div class="hero-actions">
-            <a class="btn btn-primary" href="#formulario">Evaluar mi caso laboral</a>
-            <a class="btn btn-secondary" href="https://wa.me/56969094607?text=Hola%2C%20quiero%20solicitar%20orientaci%C3%B3n%20laboral%20con%20Defensa%20Trabajador." target="_blank" rel="noopener">Hablar por WhatsApp</a>
+    <!-- HERO -->
+    <section id="inicio" class="hero-section d-flex align-items-center">
+      <div class="hero-pattern" aria-hidden="true"></div>
+      <div class="container position-relative">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-7" data-aos="fade-up">
+            <p class="eyebrow mb-3"><i class="bi bi-shield-check" aria-hidden="true"></i> Defensa laboral para trabajadores en Chile</p>
+            <h1 class="display-3 fw-black text-white mb-4">Protege tus derechos laborales antes de que venza el plazo</h1>
+            <p class="hero-lead mb-4">Asesoría estratégica para despidos, finiquitos, cotizaciones impagas y vulneraciones de derechos. Atención directa con Pablo Andrés Ramírez Venegas.</p>
+            <div class="row g-3 mb-4 hero-bullets">
+              <div class="col-md-4"><i class="bi bi-check-circle-fill" aria-hidden="true"></i> Despido injustificado</div>
+              <div class="col-md-4"><i class="bi bi-check-circle-fill" aria-hidden="true"></i> Finiquito mal calculado</div>
+              <div class="col-md-4"><i class="bi bi-check-circle-fill" aria-hidden="true"></i> Cotizaciones impagas</div>
+            </div>
+            <div class="d-flex flex-column flex-sm-row gap-3 mb-5">
+              <a class="btn btn-gold btn-lg" href="#contacto">Evaluar mi caso gratis</a>
+              <a class="btn btn-whatsapp btn-lg" href="https://wa.me/56969094607?text=Hola%2C%20necesito%20orientacion%20laboral." target="_blank" rel="noopener">
+                <i class="bi bi-whatsapp" aria-hidden="true"></i> Hablar por WhatsApp
+              </a>
+            </div>
+            <div class="hero-stats d-flex flex-wrap gap-4">
+              <div><strong>11+</strong><span>años de experiencia</span></div>
+              <div><strong>800+</strong><span>causas laborales</span></div>
+            </div>
           </div>
-          <div class="trust-row" aria-label="Indicadores de confianza">
-            <span>Más de 11 años de experiencia</span>
-            <span>Más de 800 causas laborales</span>
-            <span>Atención directa</span>
+          <div class="col-lg-5" data-aos="fade-left" data-aos-delay="120">
+            <form class="glass-form needs-validation" action="gracias.html" method="get" novalidate aria-label="Formulario de evaluación laboral">
+              <span class="form-badge"><i class="bi bi-lightning-charge-fill" aria-hidden="true"></i> Respuesta prioritaria</span>
+              <h2 class="h3 text-white mt-3 mb-2">Cuéntanos qué pasó</h2>
+              <p class="text-white-70 mb-4">Completa tus datos y revisaremos tu situación laboral con foco en plazos y documentos clave.</p>
+              <div class="mb-3">
+                <label for="heroName" class="form-label">Nombre</label>
+                <input type="text" class="form-control form-control-lg" id="heroName" name="nombre" autocomplete="name" required>
+                <div class="invalid-feedback">Ingresa tu nombre.</div>
+              </div>
+              <div class="mb-3">
+                <label for="heroPhone" class="form-label">Teléfono</label>
+                <input type="tel" class="form-control form-control-lg" id="heroPhone" name="telefono" autocomplete="tel" required>
+                <div class="invalid-feedback">Ingresa un telefono de contacto.</div>
+              </div>
+              <div class="mb-4">
+                <label for="heroMessage" class="form-label">Cuéntanos qué pasó</label>
+                <textarea class="form-control" id="heroMessage" name="mensaje" rows="4" required></textarea>
+                <div class="invalid-feedback">Describe brevemente tu caso.</div>
+              </div>
+              <button class="btn btn-gold btn-lg w-100" type="submit">Enviar evaluación</button>
+              <p class="privacy-note mt-3 mb-0"><i class="bi bi-lock-fill" aria-hidden="true"></i> Información tratada con confidencialidad. Copy placeholder editable.</p>
+            </form>
           </div>
         </div>
-        <aside class="hero-panel" aria-label="Evaluación laboral">
-          <h2>¿Necesitas orientación laboral?</h2>
-          <p>Cuéntanos qué ocurrió, cuándo ocurrió y qué documentos tienes. Una revisión temprana puede cambiar el resultado de tu caso.</p>
-          <a class="panel-link" href="#formulario">Quiero que revisen mi caso</a>
-          <small>Atención por WhatsApp, teléfono o correo electrónico.</small>
-        </aside>
       </div>
     </section>
 
-    <section class="section benefits" id="beneficios">
+    <!-- BARRA DE CONFIANZA -->
+    <section class="trust-strip py-4">
       <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">Por qué actuar ahora</p>
-          <h2>No enfrentes un conflicto laboral sin asesoría</h2>
-          <p>Un despido, una deuda laboral o una vulneración de derechos puede tener consecuencias importantes si no se actúa a tiempo.</p>
-        </div>
-        <div class="benefit-grid">
-          <article>
-            <strong>Revisión legal de tu situación</strong>
-            <p>Analizamos contrato, carta de despido, finiquito, liquidaciones, mensajes y comprobantes.</p>
-          </article>
-          <article>
-            <strong>Estrategia clara</strong>
-            <p>Te explicamos las opciones disponibles y los pasos que podrían corresponder según tu caso.</p>
-          </article>
-          <article>
-            <strong>Defensa enfocada en resultados</strong>
-            <p>Orientación profesional para reclamar indemnizaciones, remuneraciones, cotizaciones u otros derechos.</p>
-          </article>
-        </div>
-        <div class="benefit-photo">
-          <img src="ImagenExtra2.jpg" alt="Asesoría laboral personalizada para trabajadores">
-          <div>
-            <p class="eyebrow">Revisión antes de decidir</p>
-            <h3>Una conversación a tiempo puede ordenar tu caso</h3>
-            <p>Antes de firmar, aceptar una propuesta o dejar pasar una fecha importante, revisamos tus antecedentes para ayudarte a tomar una decisión informada.</p>
-          </div>
+        <div class="row g-3 text-center text-lg-start">
+          <div class="col-md-4" data-aos="fade-up"><i class="bi bi-star-fill" aria-hidden="true"></i> Reseñas destacadas ★★★★★ <span>Placeholder editable</span></div>
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="80"><i class="bi bi-award-fill" aria-hidden="true"></i> Abogado colegiado <span>Dato editable</span></div>
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="160"><i class="bi bi-person-check-fill" aria-hidden="true"></i> Atención directa <span>Sin intermediarios innecesarios</span></div>
         </div>
       </div>
     </section>
 
-    <section class="section video-section" id="video">
-      <div class="container video-grid">
-        <div>
-          <p class="eyebrow">Atención especializada</p>
-          <h2>Conoce cómo abordamos tu defensa laboral</h2>
-          <p>Revisa el video y, si tu caso requiere actuar pronto, escríbenos para evaluar documentos, plazos y posibles acciones antes de tomar una decisión.</p>
-          <a class="btn btn-primary" href="#formulario">Evaluar mi caso laboral</a>
-        </div>
-        <div class="video-frame">
-          <video src="Video1.mp4" autoplay muted loop playsinline preload="metadata" poster="imagenLaboral1.jpg" aria-label="Video de presentación de defensa laboral"></video>
-        </div>
-      </div>
-    </section>
-
-    <section class="section services" id="servicios">
+    <!-- POR QUE ACTUAR AHORA -->
+    <section class="section bg-cream" id="actuar">
       <div class="container">
-        <div class="section-heading split">
-          <div>
-            <p class="eyebrow">Servicios laborales</p>
-            <h2>Defensa y asesoría laboral especializada</h2>
+        <div class="row justify-content-center text-center mb-5">
+          <div class="col-lg-8" data-aos="fade-up">
+            <p class="eyebrow dark">Por qué actuar ahora</p>
+            <h2 class="section-title">Una decisión temprana puede cambiar el resultado</h2>
+            <p class="section-copy">En materia laboral los plazos importan, los documentos pesan y cada conversación puede ser relevante para tu estrategia.</p>
           </div>
-          <p>Atendemos conflictos laborales frecuentes con foco en trabajadores: despidos, autodespidos, prestaciones adeudadas, tutelas y accidentes.</p>
         </div>
-        <div class="service-grid">
-          <article class="service-card">
-            <img src="Icono1.png" alt="" aria-hidden="true">
-            <h3>Despidos</h3>
-            <p>Revisamos si la causal aplicada fue correcta, si tu finiquito está bien calculado o si corresponde reclamar judicialmente.</p>
-            <a class="service-button" href="https://wa.me/56969094607?text=Hola%2C%20quiero%20revisar%20mi%20despido." target="_blank" rel="noopener"><svg><use href="#icon-whatsapp"></use></svg>Revisar mi despido</a>
-          </article>
-          <article class="service-card">
-            <img src="Icono2.png" alt="" aria-hidden="true">
-            <h3>Autodespido</h3>
-            <p>Si tu empleador incumplió gravemente sus obligaciones, podrías reclamar las indemnizaciones correspondientes.</p>
-            <a class="service-button" href="https://wa.me/56969094607?text=Hola%2C%20quiero%20consultar%20si%20puedo%20autodespedirme." target="_blank" rel="noopener"><svg><use href="#icon-whatsapp"></use></svg>Consultar autodespido</a>
-          </article>
-          <article class="service-card">
-            <img src="Icono3.png" alt="" aria-hidden="true">
-            <h3>Nulidad del despido</h3>
-            <p>Si existen cotizaciones impagas al momento del despido, podrías exigir remuneraciones hasta la regularización.</p>
-            <a class="service-button" href="https://wa.me/56969094607?text=Hola%2C%20quiero%20evaluar%20la%20nulidad%20del%20despido." target="_blank" rel="noopener"><svg><use href="#icon-whatsapp"></use></svg>Evaluar nulidad</a>
-          </article>
-          <article class="service-card">
-            <img src="Icono4.png" alt="" aria-hidden="true">
-            <h3>Cobro de prestaciones</h3>
-            <p>Reclamamos remuneraciones, feriado legal, horas extras, bonos, comisiones, cotizaciones u otros pagos adeudados.</p>
-            <a class="service-button" href="https://wa.me/56969094607?text=Hola%2C%20quiero%20reclamar%20pagos%20laborales%20adeudados." target="_blank" rel="noopener"><svg><use href="#icon-whatsapp"></use></svg>Reclamar pagos</a>
-          </article>
-          <article class="service-card">
-            <img src="Icono5.png" alt="" aria-hidden="true">
-            <h3>Tutelas laborales</h3>
-            <p>Representamos casos de discriminación, represalias, hostigamiento o afectaciones graves a la dignidad del trabajador.</p>
-            <a class="service-button" href="https://wa.me/56969094607?text=Hola%2C%20quiero%20solicitar%20defensa%20laboral." target="_blank" rel="noopener"><svg><use href="#icon-whatsapp"></use></svg>Solicitar defensa</a>
-          </article>
-          <article class="service-card">
-            <img src="Icono6.png" alt="" aria-hidden="true">
-            <h3>Accidentes y enfermedades</h3>
-            <p>Orientamos acciones por accidentes del trabajo o enfermedades vinculadas a tus labores y antecedentes médicos.</p>
-            <a class="service-button" href="https://wa.me/56969094607?text=Hola%2C%20quiero%20consultar%20mi%20caso%20laboral." target="_blank" rel="noopener"><svg><use href="#icon-whatsapp"></use></svg>Consultar mi caso</a>
-          </article>
+        <div class="row g-4">
+          <div class="col-md-4" data-aos="fade-up">
+            <article class="feature-card h-100">
+              <i class="bi bi-hourglass-split card-icon" aria-hidden="true"></i>
+              <h3>Evita perder plazos</h3>
+              <p>Revisamos fechas, carta de despido y antecedentes para definir si conviene actuar de inmediato.</p>
+            </article>
+          </div>
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <article class="feature-card h-100">
+              <i class="bi bi-calculator card-icon" aria-hidden="true"></i>
+              <h3>Revisa montos y finiquito</h3>
+              <p>Identificamos indemnizaciones, remuneraciones, feriado, horas extras o cotizaciones que puedan estar pendientes.</p>
+            </article>
+          </div>
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+            <article class="feature-card h-100">
+              <i class="bi bi-diagram-3 card-icon" aria-hidden="true"></i>
+              <h3>Ordena tu estrategia</h3>
+              <p>Te explicamos las rutas posibles con lenguaje claro, sin promesas vacias ni tecnicismos innecesarios.</p>
+            </article>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="section authority">
-      <div class="container authority-grid">
-        <div class="image-stack">
-          <img class="photo-main" src="imagenLaboral1.jpg" alt="Asesoría legal laboral para trabajadores">
-          <img class="photo-float" src="imagenLaboral2.jpg" alt="Reunión de revisión de antecedentes laborales">
+    <!-- SERVICIOS -->
+    <section class="section" id="servicios">
+      <div class="container">
+        <div class="row align-items-end mb-5">
+          <div class="col-lg-7" data-aos="fade-up">
+            <p class="eyebrow dark">Servicios</p>
+            <h2 class="section-title">Defensa laboral especializada para trabajadores</h2>
+          </div>
+          <div class="col-lg-5" data-aos="fade-up" data-aos-delay="100">
+            <p class="section-copy mb-0">Cada tarjeta incluye copy placeholder editable para ajustar según servicios, ciudades o campañas.</p>
+          </div>
         </div>
-        <div>
-          <p class="eyebrow">Experiencia y especialización</p>
-          <h2>Atención legal seria para tomar decisiones con respaldo</h2>
-          <p>La defensa laboral requiere precisión, oportunidad y una lectura estratégica de los documentos. La asesoría está liderada por Pablo Andrés Ramírez Venegas, abogado con más de 11 años de experiencia independiente en materia laboral y más de 800 causas tramitadas.</p>
-          <ul class="check-list">
-            <li>Diplomado en Derecho Laboral.</li>
-            <li>Magíster en Derecho, mención Derecho Privado, Universidad de Valparaíso.</li>
-            <li>Estudios de Doctorado en Derecho en la Universidad Nacional de Mar del Plata, Argentina.</li>
-          </ul>
-          <a class="btn btn-primary" href="#formulario">Agendar evaluación</a>
+        <div class="row g-4">
+          <div class="col-md-6 col-xl-4" data-aos="zoom-in"><article class="service-card h-100"><i class="bi bi-file-earmark-x card-icon" aria-hidden="true"></i><h3>Despidos</h3><p>Evaluación de causal, carta de despido, indemnizaciones y acciones por despido injustificado.</p><a href="#contacto">Evaluar despido <i class="bi bi-arrow-right" aria-hidden="true"></i></a></article></div>
+          <div class="col-md-6 col-xl-4" data-aos="zoom-in" data-aos-delay="80"><article class="service-card h-100"><i class="bi bi-door-open card-icon" aria-hidden="true"></i><h3>Autodespido</h3><p>Asesoría cuando el empleador incumple gravemente contrato, remuneraciones o cotizaciones.</p><a href="#contacto">Consultar autodespido <i class="bi bi-arrow-right" aria-hidden="true"></i></a></article></div>
+          <div class="col-md-6 col-xl-4" data-aos="zoom-in" data-aos-delay="160"><article class="service-card h-100"><i class="bi bi-shield-exclamation card-icon" aria-hidden="true"></i><h3>Nulidad del despido</h3><p>Revision de cotizaciones impagas y efectos economicos asociados a la nulidad.</p><a href="#contacto">Revisar cotizaciones <i class="bi bi-arrow-right" aria-hidden="true"></i></a></article></div>
+          <div class="col-md-6 col-xl-4" data-aos="zoom-in"><article class="service-card h-100"><i class="bi bi-cash-coin card-icon" aria-hidden="true"></i><h3>Cobro de prestaciones</h3><p>Reclamo de sueldos, bonos, comisiones, feriado legal, horas extras y otros pagos.</p><a href="#contacto">Reclamar pagos <i class="bi bi-arrow-right" aria-hidden="true"></i></a></article></div>
+          <div class="col-md-6 col-xl-4" data-aos="zoom-in" data-aos-delay="80"><article class="service-card h-100"><i class="bi bi-person-lock card-icon" aria-hidden="true"></i><h3>Tutelas laborales</h3><p>Defensa frente a discriminacion, acoso, represalias o vulneraciones de derechos fundamentales.</p><a href="#contacto">Solicitar defensa <i class="bi bi-arrow-right" aria-hidden="true"></i></a></article></div>
+          <div class="col-md-6 col-xl-4" data-aos="zoom-in" data-aos-delay="160"><article class="service-card h-100"><i class="bi bi-heart-pulse card-icon" aria-hidden="true"></i><h3>Accidentes y enfermedades</h3><p>Orientacion por accidentes del trabajo o enfermedades vinculadas a la relacion laboral.</p><a href="#contacto">Consultar caso <i class="bi bi-arrow-right" aria-hidden="true"></i></a></article></div>
         </div>
       </div>
     </section>
 
+    <!-- EL ABOGADO -->
     <section class="section lawyer-section" id="abogado">
-      <div class="container lawyer-grid">
-        <div class="lawyer-card">
-          <p class="eyebrow">Abogado principal</p>
-          <h2>Pablo Andrés Ramírez Venegas</h2>
-          <p>Abogado con más de 11 años de experiencia en materia laboral y más de 800 causas tramitadas.</p>
-          <div class="lawyer-stats">
-            <span><strong>11+</strong> años de experiencia</span>
-            <span><strong>800+</strong> causas laborales</span>
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-5" data-aos="fade-right">
+            <div class="lawyer-photo-wrap">
+              <!-- Placeholder editable: reemplazar por foto profesional real del abogado. -->
+              <img src="ImagenExtra1.jpg" class="img-fluid" alt="Foto placeholder de Pablo Andrés Ramírez Venegas">
+              <span class="photo-label">Foto real placeholder</span>
+            </div>
+          </div>
+          <div class="col-lg-7" data-aos="fade-left">
+            <p class="eyebrow">El abogado</p>
+            <h2 class="section-title text-white">Pablo Andrés Ramírez Venegas</h2>
+            <p class="text-white-70 fs-5">Abogado laboral con 11+ años de experiencia y más de 800 causas tramitadas. Atención cercana, estrategia clara y defensa enfocada en proteger tus derechos como trabajador.</p>
+            <div class="row g-3 my-4">
+              <div class="col-sm-6"><div class="mini-stat"><strong>11+</strong><span>años de experiencia</span></div></div>
+              <div class="col-sm-6"><div class="mini-stat"><strong>800+</strong><span>causas laborales</span></div></div>
+            </div>
+            <ul class="check-list gold mb-4">
+              <li>Diplomado en Derecho Laboral.</li>
+              <li>Magíster en Derecho, mención Derecho Privado, Universidad de Valparaíso.</li>
+              <li>Estudios de Doctorado en Derecho, Universidad Nacional de Mar del Plata, Argentina.</li>
+            </ul>
+            <a class="btn btn-gold btn-lg" href="#contacto">Solicitar evaluación</a>
           </div>
         </div>
-        <div class="credentials-card">
-          <h3>Credenciales y formación destacada</h3>
-          <ul class="check-list">
-            <li>Diplomado en Derecho Laboral.</li>
-            <li>Magíster en Derecho, mención Derecho Privado, Universidad de Valparaíso.</li>
-            <li>Cursando Doctorado en Derecho en la Universidad Nacional de Mar del Plata, Argentina.</li>
-          </ul>
-          <a class="btn btn-primary" href="#formulario">Solicitar evaluación con el abogado</a>
-        </div>
       </div>
     </section>
 
-    <section class="section timeline" id="proceso">
+    <!-- PROCESO -->
+    <section class="section bg-cream" id="proceso">
       <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">Proceso de atención</p>
-          <h2>¿Cómo funciona la evaluación?</h2>
-        </div>
-        <div class="steps">
-          <article>
-            <span>1</span>
-            <h3>Cuéntanos tu caso</h3>
-            <p>Completa el formulario o escríbenos por WhatsApp indicando qué ocurrió y cuándo ocurrió.</p>
-          </article>
-          <article>
-            <span>2</span>
-            <h3>Revisamos antecedentes</h3>
-            <p>Analizamos contrato, finiquito, cartas, liquidaciones, correos, mensajes y comprobantes.</p>
-          </article>
-          <article>
-            <span>3</span>
-            <h3>Definimos estrategia</h3>
-            <p>Te explicamos opciones, riesgos y pasos disponibles de acuerdo con tu situación laboral.</p>
-          </article>
-          <article>
-            <span>4</span>
-            <h3>Iniciamos la defensa</h3>
-            <p>Si decides avanzar, te acompañamos con una estrategia jurídica clara y ordenada.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="deadline" id="plazos">
-      <div class="container deadline-grid">
-        <div>
-          <p class="eyebrow">Urgencia por plazos laborales</p>
-          <h2>Dejar pasar los días puede afectar tus posibilidades de reclamar</h2>
-          <p>Antes de firmar un finiquito, aceptar una propuesta, renunciar o dejar pasar una fecha importante, revisa tu caso con un abogado laboral. Muchos reclamos dependen de plazos y documentos específicos.</p>
-        </div>
-        <div class="deadline-box">
-          <strong>Podrías tener derecho a reclamar:</strong>
-          <ul>
-            <li>Indemnizaciones.</li>
-            <li>Remuneraciones adeudadas.</li>
-            <li>Cotizaciones impagas.</li>
-            <li>Feriado legal, horas extras, bonos o comisiones.</li>
-            <li>Tutela laboral o nulidad del despido.</li>
-          </ul>
-          <a class="btn btn-secondary" href="#formulario">Revisar mis derechos laborales</a>
-        </div>
-      </div>
-    </section>
-
-    <section class="section contact-section" id="formulario">
-      <div class="container contact-grid">
-        <div>
-          <p class="eyebrow">Formulario de contacto</p>
-          <h2>Solicita una evaluación de tu caso</h2>
-          <p>Completa tus datos y cuéntanos brevemente tu situación laboral. Mientras más detalles entregues, mejor podremos orientar la revisión inicial.</p>
-          <div class="contact-card">
-            <strong>Contacto directo</strong>
-            <p>Teléfono y WhatsApp: <a href="tel:+56969094607">+56 9 6909 4607</a></p>
-            <p>Correo: <a href="mailto:contacto@defensatrabajador.com">contacto@defensatrabajador.com</a></p>
-            <p>Dirección: Calle Álvarez Nº 2710, Viña del Mar, Región de Valparaíso.</p>
+        <div class="row justify-content-center text-center mb-5">
+          <div class="col-lg-8" data-aos="fade-up">
+            <p class="eyebrow dark">Proceso</p>
+            <h2 class="section-title">Como trabajamos tu caso</h2>
           </div>
         </div>
-        <form class="lead-form" id="lead-form" novalidate>
-          <label>
-            Nombre completo
-            <input type="text" name="name" autocomplete="name" required>
-          </label>
-          <label>
-            Teléfono
-            <input type="tel" name="phone" autocomplete="tel" required>
-          </label>
-          <label>
-            Correo electrónico
-            <input type="email" name="email" autocomplete="email" required>
-          </label>
-          <label>
-            Ciudad
-            <input type="text" name="city" autocomplete="address-level2">
-          </label>
-          <label>
-            Tipo de caso laboral
-            <select name="caseType" required>
-              <option value="">Selecciona una opción</option>
-              <option>Despido</option>
-              <option>Autodespido</option>
-              <option>Nulidad del despido</option>
-              <option>Cobro de prestaciones</option>
-              <option>Tutela laboral</option>
-              <option>Accidente del trabajo</option>
-              <option>Enfermedad profesional</option>
-              <option>Otro</option>
-            </select>
-          </label>
-          <label class="full">
-            Mensaje / descripción del caso
-            <textarea name="message" rows="5" required></textarea>
-          </label>
-          <button class="btn btn-primary full" type="submit">Enviar mi caso laboral</button>
-          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
-        </form>
-      </div>
-    </section>
-
-    <section class="whatsapp-cta" aria-label="Atención por WhatsApp">
-      <div class="container whatsapp-grid">
-        <div>
-          <p class="eyebrow">Atención rápida</p>
-          <h2>¿Prefieres escribir directamente?</h2>
-          <p>Envía un WhatsApp y cuenta tu caso laboral. Podemos orientarte sobre documentos, urgencias y próximos pasos.</p>
+        <div class="row g-4 process-row">
+          <div class="col-md-6 col-xl-3" data-aos="fade-up"><article class="process-card"><span>01</span><h3>Contacto inicial</h3><p>Nos cuentas que paso, cuando ocurrio y que necesitas resolver.</p></article></div>
+          <div class="col-md-6 col-xl-3" data-aos="fade-up" data-aos-delay="80"><article class="process-card"><span>02</span><h3>Revision documental</h3><p>Analizamos contrato, liquidaciones, cartas, finiquito y respaldos.</p></article></div>
+          <div class="col-md-6 col-xl-3" data-aos="fade-up" data-aos-delay="160"><article class="process-card"><span>03</span><h3>Estrategia legal</h3><p>Definimos opciones, riesgos, plazos y posibles resultados.</p></article></div>
+          <div class="col-md-6 col-xl-3" data-aos="fade-up" data-aos-delay="240"><article class="process-card"><span>04</span><h3>Defensa y avance</h3><p>Iniciamos gestiones, negociacion o accion judicial cuando corresponda.</p></article></div>
         </div>
-        <a class="btn btn-primary" href="https://wa.me/56969094607?text=Hola%2C%20quiero%20solicitar%20orientaci%C3%B3n%20laboral%20con%20Defensa%20Trabajador.%20Necesito%20evaluar%20mi%20caso%20y%20saber%20qu%C3%A9%20acciones%20puedo%20tomar." target="_blank" rel="noopener">Hablar por WhatsApp ahora</a>
       </div>
     </section>
 
-    <section class="section faq" id="faq">
+    <!-- URGENCIA POR PLAZOS -->
+    <section class="deadline-section section" id="plazos">
       <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">Preguntas frecuentes</p>
-          <h2>Respuestas antes de evaluar tu caso</h2>
-        </div>
-        <div class="faq-list">
-          <article class="faq-item">
-            <button type="button">¿Qué tipo de casos laborales atienden?</button>
-            <div><p>Atendemos despidos, autodespidos, nulidad del despido, cobro de prestaciones, tutelas laborales, accidentes del trabajo y enfermedades profesionales.</p></div>
-          </article>
-          <article class="faq-item">
-            <button type="button">¿Puedo reclamar si ya firmé el finiquito?</button>
-            <div><p>Depende del contenido del finiquito, de si fue firmado con reserva de derechos y de los antecedentes del caso. Conviene revisarlo antes de asumir que ya no puedes reclamar.</p></div>
-          </article>
-          <article class="faq-item">
-            <button type="button">¿Qué documentos necesito para evaluar mi caso?</button>
-            <div><p>Contrato de trabajo, carta de despido, finiquito, liquidaciones, comprobantes de pago, correos, mensajes, certificados médicos, licencias u otros documentos relacionados.</p></div>
-          </article>
-          <article class="faq-item">
-            <button type="button">¿Qué es el autodespido?</button>
-            <div><p>Es una acción que puede ejercer el trabajador cuando el empleador incumple gravemente sus obligaciones. Permite poner término al contrato y reclamar indemnizaciones si existen antecedentes suficientes.</p></div>
-          </article>
-          <article class="faq-item">
-            <button type="button">¿Qué es la nulidad del despido?</button>
-            <div><p>Puede reclamarse cuando, al momento del despido, existen cotizaciones previsionales impagas. En ciertos casos puede implicar el pago de remuneraciones hasta la regularización.</p></div>
-          </article>
-          <article class="faq-item">
-            <button type="button">¿Dónde atienden?</button>
-            <div><p>La atención principal está en Viña del Mar, Región de Valparaíso, y también puedes contactarnos por teléfono, correo electrónico o WhatsApp.</p></div>
-          </article>
+        <div class="row align-items-center g-5">
+          <div class="col-lg-7" data-aos="fade-up">
+            <p class="eyebrow">Urgencia por plazos</p>
+            <h2 class="section-title text-white">No firmes ni dejes pasar dias clave sin revisar tu caso</h2>
+            <p class="text-white-70 fs-5">Los plazos laborales pueden ser breves. Si recibiste carta de despido, te presionan a firmar o detectaste deudas, conviene ordenar antecedentes cuanto antes.</p>
+          </div>
+          <div class="col-lg-5" data-aos="fade-left">
+            <div class="deadline-box">
+              <h3>Derechos que podrias reclamar</h3>
+              <ul class="check-list gold">
+                <li>Indemnización por años de servicio.</li>
+                <li>Indemnizacion sustitutiva del aviso previo.</li>
+                <li>Recargos por despido injustificado.</li>
+                <li>Remuneraciones, feriado y horas extras.</li>
+                <li>Cotizaciones previsionales impagas.</li>
+              </ul>
+              <a class="btn btn-gold w-100" href="#contacto">Revisar mis plazos</a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="final-cta">
+    <!-- TESTIMONIOS -->
+    <section class="section" id="testimonios">
       <div class="container">
-        <h2>Protege tus derechos laborales con asesoría especializada</h2>
-        <p>Ya sea que enfrentes un despido, prestaciones impagas o una posible vulneración de derechos, recibir orientación legal a tiempo puede marcar la diferencia.</p>
-        <div class="hero-actions">
-          <a class="btn btn-primary" href="#formulario">Evaluar mi caso laboral</a>
-          <a class="btn btn-secondary" href="https://wa.me/56969094607?text=Hola%2C%20quiero%20hablar%20con%20un%20abogado%20laboral%20por%20WhatsApp." target="_blank" rel="noopener">Hablar con un abogado</a>
+        <div class="row justify-content-center text-center mb-5">
+          <div class="col-lg-8" data-aos="fade-up">
+            <p class="eyebrow dark">Testimonios</p>
+            <h2 class="section-title">Confianza construida caso a caso</h2>
+            <p class="section-copy">Resenas placeholder editables. Reemplazar por testimonios reales con autorizacion.</p>
+          </div>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-4" data-aos="fade-up"><article class="testimonial-card h-100"><div class="stars" aria-label="5 estrellas">★★★★★</div><p>"Me explicaron los pasos con claridad y pude entender si mi finiquito estaba correcto."</p><strong>Trabajadora retail</strong><span>Placeholder editable</span></article></div>
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="100"><article class="testimonial-card h-100"><div class="stars" aria-label="5 estrellas">★★★★★</div><p>"La revisión fue rápida y ordenada. Me sentí acompañado desde el primer contacto."</p><strong>Profesional servicios</strong><span>Placeholder editable</span></article></div>
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="200"><article class="testimonial-card h-100"><div class="stars" aria-label="5 estrellas">★★★★★</div><p>"Tenia dudas con mis cotizaciones y me ayudaron a decidir que hacer antes de firmar."</p><strong>Operario industrial</strong><span>Placeholder editable</span></article></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section bg-cream" id="faq">
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-lg-5" data-aos="fade-right">
+            <p class="eyebrow dark">FAQ</p>
+            <h2 class="section-title">Preguntas frecuentes</h2>
+            <p class="section-copy">Información general y editable. La respuesta definitiva depende de los antecedentes concretos del caso.</p>
+          </div>
+          <div class="col-lg-7" data-aos="fade-left">
+            <div class="accordion premium-accordion" id="faqAccordion">
+              <div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="true" aria-controls="faq1">Cuánto cuesta la primera consulta?</button></h3><div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion"><div class="accordion-body">La evaluación inicial puede ser gratuita según campaña vigente. Placeholder editable para condiciones comerciales.</div></div></div>
+              <div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">Mi informacion es confidencial?</button></h3><div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body">Si. Los antecedentes compartidos se tratan con reserva profesional y solo para evaluar la estrategia del caso.</div></div></div>
+              <div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">Que plazos tengo para demandar?</button></h3><div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body">Los plazos dependen del tipo de accion y de los hechos. Por eso recomendamos revisar fechas y documentos cuanto antes.</div></div></div>
+              <div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4" aria-expanded="false" aria-controls="faq4">Cuánto dura un juicio laboral?</button></h3><div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body">La duración varía según tribunal, complejidad y posibilidad de acuerdo. Se informa una estimación al revisar el caso.</div></div></div>
+              <div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5" aria-expanded="false" aria-controls="faq5">Aceptan formas de pago flexibles?</button></h3><div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body">Las condiciones se revisan caso a caso. Placeholder editable para honorarios, abonos o porcentajes.</div></div></div>
+              <div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq6" aria-expanded="false" aria-controls="faq6">Atienden en todo Chile?</button></h3><div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body">Se puede entregar orientación remota y coordinar representación según jurisdicción y necesidades del caso.</div></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA FINAL -->
+    <section class="final-cta section" id="contacto">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6" data-aos="fade-up">
+            <p class="eyebrow">Evaluación gratuita</p>
+            <h2 class="section-title text-white">Da el primer paso con una revision clara de tu caso</h2>
+            <p class="text-white-70 fs-5">Envia tus datos y te contactaremos para revisar antecedentes, plazos y posibles acciones. Copy placeholder editable.</p>
+          </div>
+          <div class="col-lg-6" data-aos="fade-left">
+            <form class="contact-form needs-validation" action="gracias.html" method="get" novalidate>
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label for="contactName" class="form-label">Nombre</label>
+                  <input id="contactName" name="nombre" type="text" class="form-control form-control-lg" autocomplete="name" required>
+                  <div class="invalid-feedback">Ingresa tu nombre.</div>
+                </div>
+                <div class="col-md-6">
+                  <label for="contactPhone" class="form-label">Teléfono</label>
+                  <input id="contactPhone" name="telefono" type="tel" class="form-control form-control-lg" autocomplete="tel" required>
+                  <div class="invalid-feedback">Ingresa tu telefono.</div>
+                </div>
+                <div class="col-12">
+                  <label for="contactCase" class="form-label">Tipo de caso</label>
+                  <select id="contactCase" name="caso" class="form-select form-select-lg" required>
+                    <option value="">Selecciona una opcion</option>
+                    <option>Despido</option>
+                    <option>Autodespido</option>
+                    <option>Finiquito o prestaciones</option>
+                    <option>Tutela laboral</option>
+                    <option>Accidente o enfermedad</option>
+                    <option>Otro</option>
+                  </select>
+                  <div class="invalid-feedback">Selecciona un tipo de caso.</div>
+                </div>
+                <div class="col-12">
+                  <label for="contactMessage" class="form-label">Mensaje</label>
+                  <textarea id="contactMessage" name="mensaje" class="form-control" rows="4" required></textarea>
+                  <div class="invalid-feedback">Cuéntanos brevemente que paso.</div>
+                </div>
+                <div class="col-12">
+                  <button class="btn btn-gold btn-lg w-100" type="submit">Evaluar mi caso gratis</button>
+                </div>
+              </div>
+            </form>
+          </div>
         </div>
       </div>
     </section>
   </main>
 
-  <footer class="footer">
-    <div class="container footer-grid">
-      <div>
-        <img src="LogoDefensaLaboral.png" alt="Defensa Trabajador">
-        <p>Defensa laboral para trabajadores en Chile.</p>
+  <!-- FOOTER -->
+  <footer class="footer py-5">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-5">
+          <img src="LogoDefensaLaboral.png" alt="Defensa Laboral" class="footer-logo mb-3">
+          <p>Defensa laboral para trabajadores en Chile. Sitio y textos con placeholders editables para datos comerciales, legales y cobertura.</p>
+        </div>
+        <div class="col-6 col-lg-2">
+          <h2 class="h6">Navegacion</h2>
+          <ul class="list-unstyled">
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#abogado">Abogado</a></li>
+            <li><a href="#proceso">Proceso</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-lg-2">
+          <h2 class="h6">Servicios</h2>
+          <ul class="list-unstyled">
+            <li>Despidos</li>
+            <li>Autodespido</li>
+            <li>Tutelas</li>
+            <li>Prestaciones</li>
+          </ul>
+        </div>
+        <div class="col-lg-3">
+          <h2 class="h6">Contacto</h2>
+          <p class="mb-1">WhatsApp: +56 9 6909 4607</p>
+          <p class="mb-1">defensalaboral.com</p>
+          <p class="mb-0">Dirección placeholder editable</p>
+        </div>
       </div>
-      <div>
-        <strong>Contacto</strong>
-        <a href="tel:+56969094607">+56 9 6909 4607</a>
-        <a href="mailto:contacto@defensatrabajador.com">contacto@defensatrabajador.com</a>
-        <span>Viña del Mar, Región de Valparaíso</span>
+      <hr class="my-4">
+      <div class="d-flex flex-column flex-md-row justify-content-between gap-2 small">
+        <span>© 2026 Defensa Laboral. Todos los derechos reservados.</span>
+        <span>Información general. No constituye asesoría jurídica sin revisión del caso.</span>
       </div>
     </div>
   </footer>
 
-  <a class="floating-whatsapp" href="https://wa.me/56969094607?text=Hola%2C%20quiero%20solicitar%20orientaci%C3%B3n%20laboral." target="_blank" rel="noopener" aria-label="Hablar por WhatsApp">WhatsApp</a>
+  <!-- BARRA STICKY MOVIL -->
+  <div class="mobile-sticky-cta d-md-none" aria-label="Acciones rapidas">
+    <a class="btn btn-whatsapp" href="https://wa.me/56969094607?text=Hola%2C%20quiero%20evaluar%20mi%20caso%20laboral." target="_blank" rel="noopener"><i class="bi bi-whatsapp" aria-hidden="true"></i> WhatsApp</a>
+    <a class="btn btn-gold" href="#contacto">Evaluar caso</a>
+  </div>
 
-  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 700, once: true, offset: 80 });
+
+    const nav = document.querySelector('#mainNav');
+    const updateNav = () => nav.classList.toggle('is-scrolled', window.scrollY > 40);
+    updateNav();
+    window.addEventListener('scroll', updateNav, { passive: true });
+
+    document.querySelectorAll('.needs-validation').forEach((form) => {
+      form.addEventListener('submit', (event) => {
+        if (!form.checkValidity()) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+        form.classList.add('was-validated');
+      });
+    });
+  </script>
 </body>
 </html>
